@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BelajarHiraKana</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>BelajarHiraKana</h1>
+
+    <div id="flashcard-section" class="main-container">
+        <div id="display-card" class="display-card">
+            <div id="hiragana-text" class="hiragana-text"></div>
+            <div class="romaji-katakana-group">
+                <div id="romaji-text" class="romaji-text"></div>
+                <div id="katakana-text" class="katakana-text"></div>
+            </div>
+        </div>
+        <div class="nav-button-container">
+            <button id="prevBtn">Sebelumnya</button>
+            <button id="randomBtn">Acak</button>
+            <button id="nextBtn">Selanjutnya</button>
+        </div>
+        <button id="startQuizBtn" style="margin-top: 30px;">Mulai Kuis</button>
+    </div>
+
+    <div id="quiz-section" class="main-container hidden">
+        <h2 id="quiz-question-number"></h2>
+        <div id="question-display"></div>
+        <div id="answer-buttons"></div>
+        <div id="quiz-feedback"></div>
+        <div class="nav-button-container">
+            <button id="nextQuestionBtn" class="hidden">Selanjutnya</button>
+            <button id="restartQuizBtn" class="hidden">Ulangi Kuis</button>
+        </div>
+    </div>
+    
+    <div id="example-section" class="main-container">
+        <h2>Contoh Kalimat</h2>
+        <div id="sentence-display"></div>
+        <p id="meaning-display"></p>
+        <div id="romaji-info"></div>
+        <div class="nav-button-container">
+            <button id="nextExampleBtn">Contoh Selanjutnya</button>
+        </div>
+    </div>
+
+    <div id="credit">
+        <p>Konsep oleh Allwaysever - Pemrograman dan Desain oleh Gemini by Google<br> © 2025 Allwaysever Projects - AllwayseverOpenSourceProjects</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+  </html>
