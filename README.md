@@ -32,9 +32,12 @@ Dibuat dengan **HTML, CSS, dan JavaScript** — ringan, tanpa framework, bisa la
 
 ```
 BelajarHiraKana/
-├── Assets
-├── Index.html   # Halaman utama (HTML + CSS + JS)
-└── README.md    # Dokumentasi project
+├── Assets/
+│   ├── Index-Splited.html
+│   ├── script.js
+│   └── style.css
+├── Index.html
+└── README.md
 ```
 
 ---
