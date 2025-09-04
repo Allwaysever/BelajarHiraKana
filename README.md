@@ -50,8 +50,7 @@ Kontribusi terbuka untuk semua! Kalau ada ide (misalnya: tambah audio pelafalan,
 
 ## 📜 Lisensi
 
-© 2025 Allwaysever Projects - AllwayseverOpenSourceProjects
-Konsep oleh Allwaysever™ - Pemrograman & desain oleh Gemini (Google)
+[Link menuju lisensi](https://github.com/Allwaysever/BelajarHiraKana/blob/main/ACLICENSE.md)
 
 ---
 
